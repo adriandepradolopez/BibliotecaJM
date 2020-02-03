@@ -66,6 +66,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_Libros.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_LibrosPrestados.cs">
+      <DependentUpon>DS_LibrosPrestados.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_LibrosPrestados.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

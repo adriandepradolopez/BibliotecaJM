@@ -29,5 +29,21 @@ namespace BibliotecaJM
             this.librosPrestadosTableAdapter.Fill(this.dS_LibrosPrestados.LibrosPrestados);
 
         }
+
+        private void bBuscarLibro_Click(object sender, EventArgs e)
+        {
+            if (idLibDev.Text == string.Empty)
+            {
+                this.librosPrestadosTableAdapter.Fill(this.dS_LibrosPrestados.LibrosPrestados);
+                return;
+
+            }
+
+            librosPrestadosTableAdapter.FillByIDLIB(
+                dS_LibrosPrestados.LibrosPrestados,
+                int.Parse(idLibDev.Text));
+
+
+        }
     }
 }
