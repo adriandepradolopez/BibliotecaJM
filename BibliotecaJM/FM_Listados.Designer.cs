@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FM_Listados
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ClientSize = new System.Drawing.Size(1010, 700);
+            this.Name = "FM_Listados";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

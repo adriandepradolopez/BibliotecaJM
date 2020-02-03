@@ -22,6 +22,7 @@ namespace BibliotecaJM
         {
             usuarioActual.Nombre = "admin";
             usuarioActual.TipoUsuario = "A";
+            VisualizarFormularioYTítulo(new FM_Listados(usuarioActual), "Listados");
         }
         private void tsbLectores_Click(object sender, EventArgs e)
         {
